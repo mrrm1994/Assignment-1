@@ -19,7 +19,5 @@ public class MineFieldCoordinates {
     public int getYCord(){
     	return y;
     }
-    public String string(){
-    	return "(" +  getXCord() + "," + getYCord() + ")";
-    }
+    
 }

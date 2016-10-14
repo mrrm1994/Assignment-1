@@ -13,7 +13,7 @@ public class LandMineCoordinates {
 	   Random r = new Random();
 	   return new MineFieldCoordinates(r.nextInt(9), r.nextInt(9));
    }
-   public void LlenarConBombas(){
+   public void fillWithLandMines(){
 	   for(int i = 0; i< landMineCoordinates.length; i++){
 		   landMineCoordinates[i] = coordinates();
 	   }
