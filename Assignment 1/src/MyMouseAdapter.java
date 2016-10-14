@@ -80,6 +80,9 @@ public class MyMouseAdapter extends MouseAdapter {
 							//On the left column and on the top row... do nothing
 						//} else {
 							//On the grid other than on the left column and on the top row:
+							
+							System.out.println(myPanel.mouseDownGridX+" "+myPanel.mouseDownGridY);
+							
 							Color newColor = null;
 							switch (generator.nextInt(5)) {
 							case 0:

@@ -1,9 +1,9 @@
 
-public class CoordenadasDeGrid {
+public class MineFieldCoordinates {
 	private int x;
 	private int y;
 	
-	public CoordenadasDeGrid(int xCord, int yCord){
+	public MineFieldCoordinates(int xCord, int yCord){
 		this.x = xCord;
 		this.y = yCord;		
 	}
